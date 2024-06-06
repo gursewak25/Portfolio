@@ -24,14 +24,14 @@
     position: fixed;
     z-index: 990;
     top: 0;
-    transition: all ease 0.6s;
+    transition: all ease 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #loaderr h1 {
-    font-size: 7vw;
+    font-size: 10vw;
     color: transparent;
     background: linear-gradient(to right, #9154cf, #33278a);
     -webkit-background-clip: text;
@@ -42,21 +42,21 @@
 #loaderr h1:nth-child(1) {
     animation-name: load;
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     opacity: 0;
 }
 
 #loaderr h1:nth-child(2) {
     animation-name: load;
     animation-duration: 1s;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
     opacity: 0;
 }
 
 #loaderr h1:nth-child(3) {
     animation-name: load;
     animation-duration: 1s;
-    animation-delay: 3s;
+    animation-delay: 2.5s;
     opacity: 0;
 }
 
@@ -95,7 +95,7 @@
     color: white;
     font-size: 22px;
     font-family: DM Sans, sans-serif;
-    padding: 0 35px;
+    padding: 0 40px;
 }
 
 .one1 a:hover {
@@ -103,21 +103,21 @@
 }
 
 .one2 {
-    height: 220px;
+    height: 200px;
     display: flex;
     align-items: end;
     padding-bottom: 20px;
     font-family: DM Sans, sans-serif;
-    padding-left: 6vw;
+    padding-left: 8vw;
     color: #9154cf;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .one3 {
-    height: 70px;
+    height: 80px;
     font-family: DM Sans, sans-serif;
     padding-left: 3vw;
-    font-size: 50px;
+    font-size: 75px;
     color: rgb(186, 223, 255);
     z-index: 10;
 }
@@ -158,6 +158,25 @@
 
     100% {
         transform: translateX(-100%);
+    }
+}
+
+@media (max-width : 1100px) {
+    .one2 {
+        height: 220px;
+        padding-bottom: 20px;
+        padding-left: 6vw;
+        font-size: 22px;
+    }
+
+    .one3 {
+        height: 70px;
+        padding-left: 3vw;
+        font-size: 50px;
+    }
+
+    .hero {
+        font-size: 250px;
     }
 }
 
@@ -242,11 +261,11 @@
 }
 
 .wrapper3 {
-    width: 10vw;
+    width: 11vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 10vw;
+    height: 11vw;
     background: white;
     border-radius: 250px;
     transition: all ease-in-out 0.5s;
@@ -265,15 +284,23 @@
     width: 50%;
 }
 
+@media (max-width : 1000px) {
+    .wrapper3 {
+        height: 14vw;
+        width: 14vw;
+
+    }
+}
+
 @media (max-width : 700px) {
     .wrapper3 {
+        height: 13vw;
+        width: 13vw;
         animation-name: zooming1;
         animation-duration: 0.7s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-        height: 13vw;
-        width: 13vw;
     }
 }
 
@@ -327,19 +354,6 @@
     padding: 30px 0;
 }
 
-@media (max-width : 750px) {
-    .wrapping {
-        display: block;
-    }
-
-    .cardd {
-        width: 100%;
-        padding: 2vw 4vw;
-        display: flex;
-        justify-content: center;
-    }
-}
-
 @media (max-width : 500px) {
     .resumespace {
         height: 80px;
@@ -352,13 +366,14 @@
     border-radius: 5px;
     margin: 15px;
     padding: 15px;
+    padding-bottom: 25px;
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 600px;
     /* Adjust as needed */
     border: 2px solid #7E22CE;
     background-color: #0C0C1D;
-    transition: all ease 0.3s;
+    transition: all ease 0.6s;
 }
 
 .card-image {
@@ -372,23 +387,12 @@
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 @media (max-width : 1000px) {
     .card:hover {
         transform: scale(1.01);
-    }
-}
-
-@media (max-width : 500px) {
-    .card-title {
-        font-size: 20px;
-    }
-
-    .card-description {
-        font-size: 12px;
-        min-height: 130px;
     }
 }
 
@@ -398,7 +402,7 @@
 }
 
 .card-title {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 5px;
     font-family: DM Sans, sans-serif;
@@ -406,13 +410,91 @@
 }
 
 .card-description {
-    font-size: 18px;
+    font-size: 21px;
     line-height: 1.5;
     color: #333;
     margin-bottom: 15px;
     font-family: DM Sans, sans-serif;
     min-height: 200px;
     color: white;
+}
+
+@media (max-width :1100px) {
+    .card-title {
+        font-size: 30px;
+    }
+
+    .card-description {
+        font-size: 18px;
+        min-height: 130px;
+    }
+}
+
+@media (max-width :1000px) {
+    .card-title {
+        font-size: 27px;
+    }
+
+    .card-description {
+        font-size: 16px;
+        min-height: 130px;
+    }
+}
+
+@media (max-width :900px) {
+    .card-title {
+        font-size: 27px;
+    }
+
+    .card-description {
+        font-size: 13px;
+        min-height: 130px;
+    }
+}
+
+@media (max-width : 900px) {
+    .wrapping {
+        display: block;
+    }
+
+    .cardd {
+        width: 100%;
+        padding: 2vw 4vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-title {
+        font-size: 38px;
+    }
+
+    .card-description {
+        font-size: 19px;
+        min-height: 130px;
+    }
+}
+
+@media (max-width : 500px) {
+    .card-title {
+        font-size: 30px;
+    }
+
+    .card-description {
+        font-size: 15px;
+        min-height: 130px;
+    }
+}
+
+@media (max-width : 380px) {
+    .card-title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width : 325px) {
+    .card-title {
+        font-size: 24px;
+    }
 }
 
 .middle {
@@ -429,7 +511,7 @@
     background-color: #4CAF50;
     /* Adjust button color */
     color: white;
-    padding: 10px 20px;
+    padding: 12px 25px;
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -437,7 +519,7 @@
     /* Remove underline */
     font-family: DM Sans, sans-serif;
     background-color: #7E22CE;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .page3 {
@@ -548,6 +630,11 @@
     .pageline {
         margin: 20px 40px 0 40px;
     }
+
+    .card-button {
+        padding: 10px 22px;
+        font-size: 19px;
+    }
 }
 
 .page4 {
@@ -563,7 +650,7 @@
     background: linear-gradient(to right, #9b59dc, #33278a);
     -webkit-background-clip: text;
     font-family: DM Sans, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .container {
@@ -734,6 +821,10 @@ footer {
 
 #C p {
     margin-top: 3%;
+}
+
+.copyright {
+    font-size: 20px;
 }
 
 #C a img:hover {
