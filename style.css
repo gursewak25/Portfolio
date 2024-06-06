@@ -6,6 +6,7 @@
 body{
     background-color: #131331;
 }
+
 #loaderr {
     height: 100%;
     width: 100%;
@@ -733,7 +734,7 @@ body{
     height: 40px;
     width: 120px;
     border-radius: 5px;
-    background-color: #9154cf;
+    background-color: #a541fc;
     font-family: DM Sans, sans-serif;
     font-size: 110%;
     color: white;
@@ -809,7 +810,7 @@ body{
 }
 
 footer {
-    background-color: #9154cf;
+    background-color: #a541fc;
     text-align: center;
     padding: 10px 0;
 }
