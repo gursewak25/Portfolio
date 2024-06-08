@@ -340,8 +340,6 @@ body {
     justify-content: center;
 }
 
-
-
 .page2 {
     padding-top: 50px;
     background: linear-gradient(#131331, #121225);
@@ -736,7 +734,7 @@ body {
     height: 40px;
     width: 120px;
     border-radius: 5px;
-    background-color: #a541fc;
+    background-color: #9f40ff;
     font-family: DM Sans, sans-serif;
     font-size: 110%;
     color: white;
@@ -744,7 +742,7 @@ body {
 }
 
 .mid button:hover {
-    background-color: #9b3ef8;
+    background-color: #b163ff;
 }
 
 @media (max-width : 700px) {
@@ -805,7 +803,7 @@ body {
 }
 
 footer {
-    background-color: #a541fc;
+    background-color: #9f40ff;
     text-align: center;
     padding: 10px 0 20px 0;
 
