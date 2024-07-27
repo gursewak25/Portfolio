@@ -96,7 +96,7 @@ gsap.from(" .abtme ", {
         toggleActions: "play none none none"
     },
     duration: 1.5,
-    delay:0.4,
+    delay: 0.4,
     y: 50,
     opacity: 0,
     stagger: 0.2,
@@ -115,7 +115,7 @@ gsap.from(" .meabt ", {
     opacity: 0,
     stagger: 0.2,
     ease: "power3.out"
-}); 
+});
 gsap.from(" .hi", {
     scrollTrigger: {
         trigger: ".hi ",
@@ -124,11 +124,11 @@ gsap.from(" .hi", {
         toggleActions: "play none none none"
     },
     duration: 2.5,
-    y:50,
+    y: 50,
     opacity: 0,
     stagger: 0.5,
     ease: "power3.out"
-}); 
+});
 
 gsap.from(" .col2 ", {
     scrollTrigger: {
@@ -167,7 +167,7 @@ gsap.from(" .rightside h1 ", {
     duration: 1.5,
     opacity: 0,
     x: -30,
-    delay:0.6,
+    delay: 0.6,
     stagger: 0.2,
     ease: "power3.out"
 });
@@ -182,5 +182,102 @@ gsap.from(" .leftside ", {
     opacity: 0,
     y: 50,
     stagger: 0.2,
+    ease: "power3.out"
+});
+gsap.from(" .c1 ", {
+    scrollTrigger: {
+        trigger: ".c1",
+        start: "top 80%",  // When the top of .abtme enters 80% of the viewport height
+        end: "bottom 20%", // When the bottom of .abtme enters 20% of the viewport height
+        toggleActions: "play none none none"
+    },
+    duration: 1.5,
+    opacity: 0,
+    scale: 0.9,
+    y: 20,
+    stagger: 0.2,
+    ease: "power3.out"
+});
+gsap.from(" .c2 ", {
+    scrollTrigger: {
+        trigger: ".c2",
+        start: "top 80%",  // When the top of .abtme enters 80% of the viewport height
+        end: "bottom 20%", // When the bottom of .abtme enters 20% of the viewport height
+        toggleActions: "play none none none"
+    },
+    duration: 1.5,
+    opacity: 0,
+    scale: 0.9,
+    y: 20,
+    stagger: 0.2,
+    ease: "power3.out"
+});
+gsap.from(" .c3 ", {
+    scrollTrigger: {
+        trigger: ".c3",
+        start: "top 80%",  // When the top of .abtme enters 80% of the viewport height
+        end: "bottom 20%", // When the bottom of .abtme enters 20% of the viewport height
+        toggleActions: "play none none none"
+    },
+    duration: 1.5,
+    opacity: 0,
+    scale: 0.9,
+    y: 20,
+    stagger: 0.2,
+    ease: "power3.out"
+});
+gsap.from(" .c4 ", {
+    scrollTrigger: {
+        trigger: ".c4",
+        start: "top 80%",  // When the top of .abtme enters 80% of the viewport height
+        end: "bottom 20%", // When the bottom of .abtme enters 20% of the viewport height
+        toggleActions: "play none none none"
+    },
+    duration: 1.5,
+    opacity: 0,
+    scale: 0.9,
+    y: 20,
+    stagger: 0.2,
+    ease: "power3.out"
+});
+gsap.from(" .c5 ", {
+    scrollTrigger: {
+        trigger: ".c5",
+        start: "top 80%",  // When the top of .abtme enters 80% of the viewport height
+        end: "bottom 20%", // When the bottom of .abtme enters 20% of the viewport height
+        toggleActions: "play none none none"
+    },
+    duration: 1.5,
+    opacity: 0,
+    scale: 0.9,
+    y: 20,
+    stagger: 0.2,
+    ease: "power3.out"
+});
+gsap.from(" .c6 ", {
+    scrollTrigger: {
+        trigger: ".c6",
+        start: "top 80%",  // When the top of .abtme enters 80% of the viewport height
+        end: "bottom 20%", // When the bottom of .abtme enters 20% of the viewport height
+        toggleActions: "play none none none"
+    },
+    duration: 1.5,
+    opacity: 0,
+    scale: 0.9,
+    y: 20,
+    stagger: 0.2,
+    ease: "power3.out"
+});
+gsap.from(".row", {
+    scrollTrigger: {
+        trigger: ".contacting",
+        start: "top 80%",  // When the top of .abtme enters 80% of the viewport height
+        end: "bottom 20%", // When the bottom of .abtme enters 20% of the viewport height
+        toggleActions: "play none none none"
+    },
+    duration: 1.5,
+    x: 40,
+    opacity: 0,
+    stagger: 0.6,
     ease: "power3.out"
 });
