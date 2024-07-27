@@ -535,7 +535,7 @@ body.dark-mode .rightside{
     }
     .side{
         width: 100vw;
-        padding: 0 10vw;
+        padding: 0 7vw;
     }
     .leftside h1{
         font-size: 8vw;
@@ -548,7 +548,7 @@ body.dark-mode .rightside{
     .rightside{
         margin-bottom: 15vw;
         text-align: right;
-        padding-right: 15vw;
+        padding-right: 7vw;
         font-size: 3vw;
     }
 }
@@ -864,7 +864,7 @@ body.dark-mode .abtme{
     }
 
     .abtme {
-        font-size: 3.6vw;
+        font-size: 3.8vw;
         padding: 1vw 7.5vw 2.5vw;
         line-height: 4vw;
     }
@@ -876,7 +876,7 @@ body.dark-mode .abtme{
 
 @media (max-width : 500px) {
     .abtme {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .pageline {
