@@ -1067,7 +1067,9 @@ body.dark-mode footer{
 .copyright {
     font-size: 20px;
 }
-
+#C a img{
+    transition: all ease 0.3s;
+}
 #C a img:hover {
     transform: scale(1.1);
 }
