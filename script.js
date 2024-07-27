@@ -166,7 +166,7 @@ gsap.from(" .rightside h1 ", {
     },
     duration: 1.5,
     opacity: 0,
-    x: 20,
+    x: -25,
     delay:0.6,
     stagger: 0.2,
     ease: "power3.out"
