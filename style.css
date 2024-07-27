@@ -170,7 +170,7 @@ body.dark-mode .icon {
     width: 24vw;
     height: 23vw;
     background: linear-gradient(290deg, blueviolet, #8A2BE2, #D8BFD8);
-    position: absolute;
+    position: fixed;
     z-index: -1;
     margin-left: 5vw;
     margin-top: 4vh;
@@ -183,7 +183,7 @@ body.dark-mode .icon {
     height: 30vw;
     margin-top: 19vh;
     background: linear-gradient(145deg, blueviolet, #8A2BE2, #D8BFD8);
-    position: absolute;
+    position: fixed;
     z-index: -999;
     margin-left: 53vw;
     animation: gola2 4s linear infinite alternate;
@@ -196,7 +196,7 @@ body.dark-mode .icon {
     height: 30vw;
     margin-top: 35vh;
     background: linear-gradient(145deg, blueviolet, #8A2BE2, #D8BFD8);
-    position:absolute;
+    position:fixed;
     z-index: -1;
     margin-left: 23vw;
     animation: gola3 4s linear infinite alternate;
