@@ -70,7 +70,7 @@ gsap.from(" .proj ", {
         toggleActions: "play none none none"
     },
     duration: 1.5,
-    y: 50,
+    y: 80,
     opacity: 0,
     stagger: 0.2,
     ease: "power3.out"
@@ -83,7 +83,7 @@ gsap.from(" .contacting ", {
         toggleActions: "play none none none"
     },
     duration: 1.5,
-    y: 50,
+    y: 80,
     opacity: 0,
     stagger: 0.2,
     ease: "power3.out"
@@ -166,7 +166,7 @@ gsap.from(" .rightside h1 ", {
     },
     duration: 1.5,
     opacity: 0,
-    x: 200,
+    x: 20,
     delay:0.6,
     stagger: 0.2,
     ease: "power3.out"
@@ -183,16 +183,4 @@ gsap.from(" .leftside ", {
     y: 200,
     stagger: 0.2,
     ease: "power3.out"
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-    const scroller = document.querySelector('.scroller');
-    const images = scroller.querySelectorAll('img');
-    images.forEach(img => {
-        const clone = img.cloneNode(true);
-        scroller.appendChild(clone);
-    });
-
-    const totalWidth = scroller.scrollWidth;
-    scroller.style.width = `${totalWidth}px`;
 });
