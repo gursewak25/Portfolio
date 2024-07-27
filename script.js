@@ -70,7 +70,7 @@ gsap.from(" .proj ", {
         toggleActions: "play none none none"
     },
     duration: 1.5,
-    y: 80,
+    y: 50,
     opacity: 0,
     stagger: 0.2,
     ease: "power3.out"
@@ -83,7 +83,7 @@ gsap.from(" .contacting ", {
         toggleActions: "play none none none"
     },
     duration: 1.5,
-    y: 80,
+    y: 50,
     opacity: 0,
     stagger: 0.2,
     ease: "power3.out"
@@ -124,7 +124,7 @@ gsap.from(" .hi", {
         toggleActions: "play none none none"
     },
     duration: 2.5,
-    y:80,
+    y:50,
     opacity: 0,
     stagger: 0.5,
     ease: "power3.out"
@@ -152,7 +152,7 @@ gsap.from(" .creative ", {
     },
     duration: 1.5,
     opacity: 0,
-    y: 200,
+    y: 50,
     stagger: 0.2,
     ease: "power3.out"
 });
@@ -180,7 +180,7 @@ gsap.from(" .leftside ", {
     },
     duration: 1.5,
     opacity: 0,
-    y: 200,
+    y: 50,
     stagger: 0.2,
     ease: "power3.out"
 });
