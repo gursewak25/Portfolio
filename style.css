@@ -327,6 +327,10 @@ body.dark-mode .hero {
     z-index: -50;
     display: flex;
     justify-items: end;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 .con2 {
@@ -433,7 +437,7 @@ body.dark-mode .hero {
 
 .creative {
     font-weight: lighter;
-    padding: 13vw 7vw 3vw;
+    padding: 15vw 7vw 6vw;
     font-size: 2vw;
     font-family: "Poppins";
     line-height: 5.5vw;
