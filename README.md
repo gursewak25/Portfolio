@@ -1,2 +1,2 @@
 # Portfolio
-Personal Portfolio Website
+My portfolio website created using html, css, javaScript, GSAP & TypedJS
