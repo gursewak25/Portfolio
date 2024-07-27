@@ -134,7 +134,7 @@ body.dark-mode .icon {
 .righting{
     display: flex;
     justify-content: right;
-    padding: 13px 15px 0 0;
+    padding: 15px 18px 0 0;
 }
 .icon {
     grid-column: 1 / 1;
@@ -353,7 +353,7 @@ body.dark-mode .hero{
         display: block;
     }
     .one3{
-     font-size: 6vw;
+     font-size: 5vw;
      height: calc(31.5vh - 24vw);
     }
     .singh{
