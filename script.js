@@ -152,7 +152,7 @@ gsap.from(" .creative ", {
     },
     duration: 1.5,
     opacity: 0,
-    y: 50,
+    y: 90,
     stagger: 0.2,
     ease: "power3.out"
 });
@@ -166,7 +166,7 @@ gsap.from(" .rightside h1 ", {
     },
     duration: 1.5,
     opacity: 0,
-    x: -25,
+    x: -30,
     delay:0.6,
     stagger: 0.2,
     ease: "power3.out"
