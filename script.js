@@ -1,11 +1,11 @@
 
 var loader = document.querySelector("#loaderr")
 setTimeout(function () {
-    loader.style.top = "-100%"
+    loader.style.top = "-120%"
 }, 3700)
 var loader1 = document.querySelector("#loader1")
 setTimeout(function () {
-    loader1.style.top = "-100%"
+    loader1.style.top = "-120%"
 }, 3900)
 
 document.addEventListener('DOMContentLoaded', function () {
