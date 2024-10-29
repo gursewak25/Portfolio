@@ -10,7 +10,11 @@ body {
     overflow-x: hidden;
     font-family: "poppins";
 }
-
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 body.dark-mode {
     background-color: rgb(193, 174, 210);
     overflow-x: hidden;
