@@ -61,11 +61,11 @@ body.dark-mode #loaderr {
 
 #loaderr h1 {
     font-size: 11vw;
-    font-weight: lighter;
+    font-weight:100;
     background: linear-gradient(to right, #4a30dd, #642d9f);
     -webkit-background-clip: text;
     color: transparent;
-    font-family: futura;
+    font-family: Impact, Charcoal, sans-serif;
     position: absolute;
 }
 
